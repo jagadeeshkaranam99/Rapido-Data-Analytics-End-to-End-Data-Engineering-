@@ -1,0 +1,8 @@
+sudo apt-get update
+sudo apt-get install -y python3-distutils python3-apt wget
+wget https://bootstrap.pypa.io/get-pip.py
+sudo python3 get-pip.py
+
+sudo pip3 install mage-ai pandas openpyxl google-cloud google-cloud-bigquery db-dtypes
+
+mage start rapido_etl
